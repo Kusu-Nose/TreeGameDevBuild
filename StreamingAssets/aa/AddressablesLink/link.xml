@@ -2,13 +2,36 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AlphaVerConfigLoader" preserve="all" />
     <type fullname="AlphaVerConfigScriptableObject" preserve="all" />
+    <type fullname="FruitCounterUI" preserve="all" />
+    <type fullname="FruitsSpawner" preserve="all" />
+    <type fullname="Gauge" preserve="all" />
+    <type fullname="SceneTransitionButton" preserve="all" />
+    <type fullname="TreeBranchCollider" preserve="all" />
     <type fullname="TreeGame.Alpha.OpenSurveyButton" preserve="all" />
+    <type fullname="TreeGame.Enemys.EnemyAttack" preserve="all" />
+    <type fullname="TreeGame.Enemys.EnemyController" preserve="all" />
+    <type fullname="TreeGame.Enemys.EnemyCreate" preserve="all" />
+    <type fullname="TreeGame.Enemys.EnemyStatus" preserve="all" />
+    <type fullname="TreeGame.Fruits.TestFruits" preserve="all" />
+    <type fullname="TreeGame.Inputs.InputEventProvider" preserve="all" />
+    <type fullname="TreeGame.Managers.GameManager" preserve="all" />
+    <type fullname="TreeGame.Players.PlayerController" preserve="all" />
+    <type fullname="TreeGame.Players.PlayerHarvester" preserve="all" />
+    <type fullname="TreeGame.Players.PlayerLeg" preserve="all" />
+    <type fullname="TreeGame.Players.PlayerShooter" preserve="all" />
+    <type fullname="TreeGame.Players.PlayerStatus" preserve="all" />
+    <type fullname="TreeGame.Trees.TreeBranch" preserve="all" />
+    <type fullname="TreeGame.Trees.TreeTrunk" preserve="all" />
+    <type fullname="TreeGame.UIs.LockOnUI" preserve="all" />
+    <type fullname="TreeHpUI" preserve="all" />
+    <type fullname="Layer" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
@@ -21,13 +44,13 @@
   <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AudioListener" preserve="all" />
@@ -39,6 +62,8 @@
     <type fullname="UnityEngine.Light" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.RenderSettings" preserve="all" />
@@ -47,6 +72,11 @@
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
@@ -68,6 +98,9 @@
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UniRx">
+    <type fullname="UniRx.ReactiveProperty`1[System.Int32]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
